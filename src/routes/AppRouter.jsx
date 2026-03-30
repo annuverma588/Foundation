@@ -1,0 +1,22 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Programs from "../pages/Programs";
+import Donate from "../pages/Donate";
+import Volunteer from "../pages/Volunteer";
+import Contact from "../pages/Contact";
+import Blog from "../pages/Blog";
+
+export default function AppRouter() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/programs" element={<Programs />} />
+      <Route path="/donate" element={<Donate />} />
+      <Route path="/volunteer" element={<Volunteer />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/blog" element={<Blog />} />
+    </Routes>
+  );
+}
