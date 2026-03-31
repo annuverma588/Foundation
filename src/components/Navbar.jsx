@@ -167,13 +167,7 @@ export default function Navbar() {
               )}
             </AnimatePresence>
 
-            {/* Donate CTA */}
-            <NavLink
-              to="/donate"
-              className="bg-green-500 hover:bg-green-400 text-white text-sm font-bold px-5 py-2 rounded-full transition-all hover:scale-105 hover:shadow-lg hover:shadow-green-500/30"
-            >
-              Donate Now
-            </NavLink>
+            
           </div>
 
           {/* MOBILE HAMBURGER */}
@@ -239,13 +233,7 @@ export default function Navbar() {
                 </div>
               ))}
 
-              <NavLink
-                to="/donate"
-                onClick={() => setMobileOpen(false)}
-                className="block w-full bg-green-500 text-white text-center font-bold py-4 rounded-2xl text-base mt-4 hover:bg-green-600 transition-colors"
-              >
-                Donate Now 💚
-              </NavLink>
+            
             </div>
           </motion.div>
         )}
