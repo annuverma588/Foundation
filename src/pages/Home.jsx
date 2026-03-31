@@ -78,10 +78,10 @@ const partners = [
 ];
 
 const stats = [
-  { value: "10K+", label: "Lives Touched", icon: "❤️" },
-  { value: "50+", label: "Active Projects", icon: "🚀" },
-  { value: "200+", label: "Volunteers", icon: "🤝" },
-  { value: "25+", label: "Cities Covered", icon: "🌍" },
+  { value: "10K+", label: "Lives Touched", icon: "" },
+  { value: "50+", label: "Active Projects", icon: "" },
+  { value: "200+", label: "Volunteers", icon: "" },
+  { value: "25+", label: "Cities Covered", icon: "" },
 ];
 
 /* ─── COUNTER ANIMATION ─────────────────────────────────── */
@@ -686,7 +686,7 @@ export default function HomePage() {
         </motion.div>
       </section>
 
-      {/* ══════════════════ FOOTER ══════════════════════ */}
+      
       
     </div>
   );
